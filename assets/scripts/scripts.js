@@ -17,12 +17,12 @@ if ($(".slider-certificate").length > 0) {
 		effect: "fade",
 		fadeEffect: { crossFade: true },
 		slidesPerView: 1,
-		autoplay: {
-			delay: 4000,
-			disableOnInteraction: true,
-		},
-		speed: 4000,
+		autoplay: { delay: 4000 },
+		speed: 0,
 		loop: true,
+		spaceBetween: 0,
+		longSwipes: false,
+		shortSwipes: true,
 	});
 }
 
