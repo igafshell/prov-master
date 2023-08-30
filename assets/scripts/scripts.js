@@ -18,9 +18,9 @@ if ($(".slider-certificate").length > 0) {
 		fadeEffect: { crossFade: true },
 		slidesPerView: 1,
 		autoplay: { delay: 4000 },
-		speed: 0,
+		speed: 1,
 		loop: true,
-		spaceBetween: 0,
+		spaceBetween: 30,
 		longSwipes: false,
 		shortSwipes: true,
 	});
