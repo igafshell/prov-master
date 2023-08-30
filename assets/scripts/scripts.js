@@ -31,13 +31,12 @@ if ($(".slider-certificate-vrtical").length > 0) {
 		effect: "fade",
 		fadeEffect: { crossFade: true },
 		slidesPerView: 1,
-		direction: "vertical",
-		autoplay: {
-			delay: 8000,
-			disableOnInteraction: true,
-		},
-		speed: 8000,
+		autoplay: { delay: 4000 },
+		speed: 0,
 		loop: true,
+		spaceBetween: 0,
+		longSwipes: false,
+		shortSwipes: true,
 	});
 }
 // =================================================
